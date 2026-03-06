@@ -1,0 +1,18 @@
+{
+  "name": "prompt-router-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that forwards prompts to Gemini, Qwen, or any CLI-based AI agent",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "prompt-router-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "gemini", "qwen", "ai-router"],
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1"
+  }
+}
