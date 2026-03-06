@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ai-executor": {
+      "command": "node",
+      "args": ["MCP_DIR_PLACEHOLDER/index.js"],
+      "env": { "EXECUTOR_CLI": "gemini" }
+    }
+  }
+}
